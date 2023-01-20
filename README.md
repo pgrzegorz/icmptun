@@ -21,10 +21,10 @@ Start tunnel on host B:
 
 Add IP address to tun device (default tun0), for example:
 ```
-ip a a 10.10.10.2/24 dev tun0
+ip a a 10.0.0.2/24 dev tun0
 ```
 
 Verify from host A:
 ```
-ping 10.10.10.2
+ping 10.0.0.2
 ```
